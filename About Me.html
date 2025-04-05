@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/AboutMe.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-..." crossorigin="anonymous"></script>
+    <script src="dist/js/lightgallery-all.min.js"></script>
+    <script src="Script/AboutMeScript.js"></script>
+    <title>About Me</title>
+</head>
+
+<body>
+    <nav>
+        <a href="Index.html">Home Page</a>
+        <a href="About Me.html">About Me</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <br>
+
+    <text>Click on Pictures Below to see more Information</text>
+
+    <br><br>
+
+    <ul id="lightGallery" class="gallery">
+        <li data-title="Pisa"
+            data-desc="The Leaning Tower of Pisa, known for its unintended tilt, is a remarkable architectural marvel and a UNESCO World Heritage Site that attracts millions of visitors each year."
+            data-responsive-src="Images/Pisa.jpg" data-src="Images/Pisa.jpg">
+            <a href="#"><img src="Images/Pisa.jpg"
+                    alt="The Leaning Tower of Pisa, known for its unintended tilt, is a remarkable architectural marvel and a UNESCO World Heritage Site that attracts millions of visitors each year." /></a>
+        </li>
+
+        <li data-title="Amalfi"
+            data-desc="The breathtaking Amalfi Coast, with its vibrant cliffside villages and sparkling azure waters, is a perfect destination for those seeking both adventure and relaxation in Italy."
+            data-responsive-src="Images/Amalfi.jpg" data-src="Images/Amalfi.jpg">
+            <a href="#"><img src="Images/Amalfi.jpg"
+                    alt="The breathtaking Amalfi Coast, with its vibrant cliffside villages and sparkling azure waters, is a perfect destination for those seeking both adventure and relaxation in Italy." /></a>
+        </li>
+
+        <li data-title="Paris" data-desc="Paris, known as the City of Light, is celebrated for its rich history, stunning architecture, and vibrant culture, making it a dream destination for travelers from around the world.
+
+        " data-responsive-src="Images/Paris.jpg" data-src="Images/Paris.jpg">
+            <a href="#"><img src="Images/Paris.jpg"
+                    alt="Paris, known as the City of Light, is celebrated for its rich history, stunning architecture, and vibrant culture, making it a dream destination for travelers from around the world." /></a>
+        </li>
+
+        <li data-title="Code" data-desc="The coding profession not only demands strong analytical skills and creativity but also offers endless opportunities for innovation and problem-solving in a rapidly evolving technological landscape.
+
+        " data-responsive-src="Images/Code.jpg" data-src="Images/Code.jpg">
+            <a href="#"><img src="Images/Code.jpg"
+                    alt="The coding profession not only demands strong analytical skills and creativity but also offers endless opportunities for innovation and problem-solving in a rapidly evolving technological landscape" /></a>
+        </li>
+
+        <li data-title="London" data-desc="London, a vibrant city steeped in history and culture, is renowned for its iconic landmarks such as the Tower of London, Buckingham Palace, and the bustling streets of Soho.
+
+        " data-responsive-src="Images/London.jpg" data-src="Images/London.jpg">
+            <a href="#"><img src="Images/London.jpg"
+                    alt="London, a vibrant city steeped in history and culture, is renowned for its iconic landmarks such as the Tower of London, Buckingham Palace, and the bustling streets of Soho." /></a>
+        </li>
+
+        <li data-title="Family" data-desc="Family is a tapestry woven with love, support, and shared moments that create the foundation of our lives.
+
+        " data-responsive-src="Images/Family.jpg" data-src="Images/Family.jpg">
+            <a href="#"><img src="Images/Family.jpg"
+                    alt="Family is a tapestry woven with love, support, and shared moments that create the foundation of our lives." /></a>
+        </li>
+    </ul>
+
+    <script>
+        $(document).ready(function () {
+            $("#lightGallery").lightGallery();
+            const facts = ["I once climbed a mountain!"];
+            $('#surprise-button').click(function () {
+                const randomFact = facts[Math.floor(Math.random() * facts.length)];
+                $('#fact-display').text(randomFact);
+            });
+        });
+    </script>
+
+    <p>
+        Hello! My name is Ivy Rose, and I'm an 18-year-old aspiring software developer currently living in the beautiful
+        Mediterranean island of Malta. As a student at MCAST, I’m diving deep into the world of iGaming—a field that not
+        only fascinates me but also presents a myriad of opportunities to unite technology and entertainment. With every
+        line of code I write and every project I complete, I feel a little closer to my dream of becoming a successful
+        software developer.
+
+        <br><br>
+
+        Growing up in Malta, I’ve been fortunate to be surrounded by a rich culture and an incredible community. Living
+        in a place where the history meets modernity has inspired me to appreciate both the roots of technology and its
+        future potential. The vibrant atmosphere motivates me daily, encouraging me to not only embrace my education but
+        to explore new ideas and concepts in the tech world. Whether it’s coding, game design, or learning about user
+        experience—every aspect is a thrilling puzzle I’m eager to solve.
+
+        <br><br>
+
+        Family has always played a significant role in my life, providing me with the support and encouragement I need
+        to chase my goals. They are my biggest cheerleaders, rooting for me throughout my academic journey and reminding
+        me of the importance of hard work and dedication. My parents have instilled in me the values of resilience and
+        passion, which I carry into every project I undertake. Their belief in my abilities fuels my ambition to succeed
+        and make them proud.
+
+        <br><br>
+
+        At this stage in my life, I’m not only focused on my studies but also on the kind of future I want to build for
+        myself. I dream of a career where I can make a difference through technology—creating innovative applications
+        that enhance the lives of users. Software development is a constantly evolving field, and I am excited about its
+        endless possibilities. I love the idea of contributing to projects that not only entertain but also connect
+        people and bring them together in meaningful ways.
+
+        <br><br>
+
+        When I’m not busy with my studies or coding, you can find me exploring the stunning landscapes of Malta or
+        connecting with friends over coffee, exchanging ideas and inspirations. I believe that creativity often blossoms
+        in casual moments, so I make it a priority to unwind and recharge. Whether it’s taking a hike along the
+        coastline or simply enjoying time with loved ones, I aim to maintain a balanced lifestyle that nurtures both my
+        personal and professional aspirations.
+
+        <br><br>
+
+        As I continue my journey in the iGaming industry, I’m eager to learn, grow, and ultimately make my mark in the
+        tech world. With ambition in my heart and a supportive family by my side, I am determined to achieve my goals
+        and look forward to the adventures each day brings. Thank you for joining me on this exciting journey as I
+        strive towards a successful future!
+    </p>
+
+    <h1>More about Me:</h1>
+
+    <p>Wanna know more about me?</p>
+
+    <div class="container">        
+        <button id="moreBtn">More About Me</button>
+        <div id="moreInfo" class="hidden">
+            <p>I am almost always late to my flights as i get overwhelmed the day of or before and start to over pack so i find best to make a list.... Thank me later!</p>
+        </div>
+
+</body>
+
+</html>
